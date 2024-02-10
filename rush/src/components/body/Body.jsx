@@ -90,7 +90,7 @@ const Body = () => {
                     {definition}
                     </p>
                 ))}
-                </div>
+            </div>
 
             
         </div>
