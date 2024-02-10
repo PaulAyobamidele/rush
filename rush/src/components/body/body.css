@@ -1,0 +1,88 @@
+.search__area {
+    position: relative;
+}
+
+
+.body__search-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 12px;
+    background-color: #f3f3f3;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.body__search-input:focus {
+    outline: none;
+}
+.search__button {
+    position: absolute;
+    top: 50%; 
+    right: 3%;
+    transform: translateY(-50%); 
+    margin: 0;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.body__word-transcription {
+    padding: 0;
+}
+
+.body__word-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 5px;
+}
+
+
+.body__word-highlight h1 {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body__word-highlight p {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.play__icon {
+    color: var(--secondary-color);
+    margin-right: 10px;
+    border: none var(--secondary-color);
+    border-radius: 50%;
+    background-color: var(--light-color);
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.body__containter-meanings h2 {
+    font-size: 20px;
+    opacity: 0.6;
+    padding-left: 10px;
+}
+
+/* .MuiSvgIcon-root .MuiSvgIcon-fontSizeMedium .CircleIcon .css-i4bv87-MuiSvgIcon-root {
+    font-size: 12px; 
+    width: 20px; 
+    height: 20px;
+} */
+
+
+
+.word__meaning-index {
+    display: flex;
+    align-items: center;
+}
+
+.body__meanings {
+    padding: 0 30px;
+}
